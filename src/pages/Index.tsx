@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { SEO } from "@/components/SEO";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -34,6 +35,7 @@ const Index = () => {
 
   return (
     <main>
+      <SEO />
       <header className="sticky top-[60px] z-30 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
         <div className="container mx-auto flex items-center justify-between py-4">
           <a href="#" className="flex items-center gap-2" aria-label="Boost Score home">
@@ -69,7 +71,7 @@ const Index = () => {
               LinkedIn Authority Builder: Transform Your Profile Into a Lead Generation Machine for AI Founders
             </h1>
             <p className="mt-4 text-lg text-muted-foreground max-w-xl" itemProp="description">
-              The premier LinkedIn authority building platform engineered specifically for AI startup founders. Attract investors, close enterprise deals, and build thought leadership with our proven system trusted by 500+ technical founders.
+              The premier LinkedIn authority building platform engineered specifically for AI startup founders. Attract investors, close enterprise deals, and build thought leadership with our <a href="#features" className="text-primary hover:underline">proven system</a> trusted by 500+ technical founders.
             </p>
             <div className="mt-6 flex flex-col sm:flex-row gap-3">
               <Button variant="hero" size="lg" asChild>
@@ -124,7 +126,7 @@ const Index = () => {
       {/* Solution Overview */}
       <section className="border-t" id="solution">
         <div className="container mx-auto py-16">
-          <h2 className="text-3xl font-bold mb-8">Your Proven LinkedIn Authority Building System for Startup Success</h2>
+          <h2 className="text-3xl font-bold mb-8">LinkedIn Authority Building System for AI Startup Founders</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[{
               icon: BarChart, title: "Assess & Benchmark", bullets: [
@@ -265,7 +267,7 @@ const Index = () => {
       {/* Features Grid */}
       <section className="border-t" id="features">
         <div className="container mx-auto py-16">
-          <h2 className="text-3xl font-bold mb-8">Complete LinkedIn Authority Building Toolkit for Technical Founders</h2>
+          <h2 className="text-3xl font-bold mb-8">LinkedIn Profile Optimization & Content Strategy Tools for AI Founders</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { title: "Template Library", benefit: "50+ proven templates that generated 10M+ impressions", detail: "Hook formulas, story structures, insight frameworks", icon: FileText },
@@ -295,7 +297,7 @@ const Index = () => {
       {/* Social Proof */}
       <section className="border-t">
         <div className="container mx-auto py-16">
-          <h2 className="text-3xl font-bold mb-8">500+ AI Startup Founders Trust Boost Score for LinkedIn Growth</h2>
+          <h2 className="text-3xl font-bold mb-8">Thought Leadership Platform Trusted by 500+ AI Startup Founders</h2>
           <div className="text-center mb-10">
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               While we're building our community of successful AI founders, our methodology is based on proven LinkedIn authority-building strategies that have generated real results for technical founders.
@@ -473,7 +475,7 @@ const Index = () => {
             </AccordionItem>
             <AccordionItem value="q4">
               <AccordionTrigger>What if I don't see results?</AccordionTrigger>
-              <AccordionContent>90‑day guarantee. Follow the program, use the templates, and if you don't see measurable improvement, get a full refund.</AccordionContent>
+              <AccordionContent>90‑day guarantee. Follow the program, use the templates, and if you don't see measurable improvement, get a full refund. <a href="#assessment" className="text-primary hover:underline">Start with your free assessment</a> to see current baseline.</AccordionContent>
             </AccordionItem>
             <AccordionItem value="q5">
               <AccordionTrigger>Can I use this with my team?</AccordionTrigger>
@@ -524,10 +526,10 @@ const Index = () => {
             <div>
               <h3 className="font-semibold mb-3">Resources</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">Blog</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Case Studies</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Templates</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Community</a></li>
+                <li><a href="#assessment" className="hover:text-primary transition-colors">Free Assessment</a></li>
+                <li><a href="#features" className="hover:text-primary transition-colors">Platform Features</a></li>
+                <li><a href="#solution" className="hover:text-primary transition-colors">How It Works</a></li>
+                <li><Link to="/about" className="hover:text-primary transition-colors">Our Story</Link></li>
               </ul>
             </div>
             <div>

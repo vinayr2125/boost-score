@@ -34,7 +34,7 @@ export const generateMetaTags = (page: string) => {
   return pageTags[page] || baseTags;
 };
 
-export const generateStructuredData = (type: string, data?: any) => {
+export const generateStructuredData = (type: string, data?: Record<string, unknown>) => {
   const baseOrganization = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -48,7 +48,7 @@ export const generateStructuredData = (type: string, data?: any) => {
     ],
   };
 
-  const schemas: Record<string, any> = {
+  const schemas: Record<string, Record<string, unknown>> = {
     organization: baseOrganization,
     
     product: {
@@ -169,7 +169,7 @@ export const optimizeImageLoading = () => {
 };
 
 export const generateRichSnippets = (type: string) => {
-  const snippets: Record<string, any> = {
+  const snippets: Record<string, Record<string, unknown>> = {
     howTo: {
       "@context": "https://schema.org",
       "@type": "HowTo",
@@ -222,7 +222,7 @@ export const generateRichSnippets = (type: string) => {
   return snippets[type];
 };
 
-export const generateVideoSchema = (videoData: any) => {
+export const generateVideoSchema = (videoData: Record<string, unknown>) => {
   return {
     "@context": "https://schema.org",
     "@type": "VideoObject",
