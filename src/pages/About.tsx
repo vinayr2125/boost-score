@@ -61,7 +61,7 @@ const About = () => {
                     </a>
                   </Button>
                   <Button variant="outline" size="lg" asChild>
-                    <a href="mailto:trish@boostscore.com">
+                    <a href="mailto:trishsampath@alphaboostlabs.com">
                       <Mail className="mr-2 h-5 w-5" />
                       Get in Touch
                     </a>
