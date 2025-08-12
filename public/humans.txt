@@ -1,0 +1,31 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Founder & CEO -- Trish -- @trish
+    Lead Developer -- Boost Score Team -- dev@boostscore.ai
+    Marketing -- Growth Team -- growth@boostscore.ai
+
+# THANKS
+    AI Startup Founders Community
+    Early Adopters & Beta Testers
+    LinkedIn Authority Building Experts
+
+# TECHNOLOGY COLOPHON
+    Standards: HTML5, CSS3, ECMAScript 2020+
+    Framework: React 18, TypeScript
+    Styling: Tailwind CSS
+    Build: Vite
+    Hosting: Cloud Infrastructure
+    Analytics: Privacy-First Analytics
+    
+# SITE
+    Last update: 2025-08-10
+    Language: English
+    Doctype: HTML5
+    IDE: Various
+    
+# NOTE
+    Built with passion for AI startup founders
+    Helping technical founders build LinkedIn authority
+    Transform your LinkedIn into a business growth engine

@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --brand-primary: 215 28% 17%; /* Slate-900 #0f172a */
+    --brand-secondary: 215 25% 27%; /* Slate-800 #1e293b */
+    --linkedin-blue: 201 85% 36%; /* LinkedIn Blue #0077B5 */
+    --background: 0 0% 98%; /* Slate-50 #f8fafc */
+    --foreground: 215 28% 17%; /* Slate-900 #0f172a */
+    --muted: 215 16% 47%; /* Slate-500 #64748b */
+    --muted-foreground: 215 16% 47%; /* Slate-500 #64748b */
+    --card: 0 0% 100%;
+    --card-foreground: 215 28% 17%; /* Slate-900 */
+    --border: 214 32% 91%; /* Slate-200 #e2e8f0 */
+    --primary: var(--brand-primary);
+    --primary-hover: 215 25% 27%; /* Slate-800 #1e293b */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 98%; /* Slate-50 #f8fafc */
+    --secondary-foreground: 215 25% 27%; /* Slate-800 */
+    --accent: var(--brand-secondary);
+    --accent-foreground: 0 0% 100%;
+    --popover: var(--card);
+    --popover-foreground: var(--card-foreground);
+    --ring: var(--brand-primary);
+    --radius: 0.5rem;
+
+    /* Layout helpers */
+    --hero-start: 210 40% 98%; /* #f8fafc */
+    --section: 210 40% 98%; /* #f8fafc */
+
+    --shadow-glow: 0 0 20px rgba(15, 23, 42, 0.15);
+  }
+
+  .dark {
+    /* Keep parity simple for now */
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 215 28% 17%; /* Slate-900 */
+    --primary-hover: 215 25% 27%; /* Slate-800 */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 55.1%;
+    --accent: 215 25% 27%; /* Slate-800 */
+    --accent-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --ring: 215 28% 17%; /* Slate-900 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html { @apply scroll-smooth; }
+  body { @apply bg-background text-foreground font-sans antialiased leading-relaxed text-base; }
+  h1, h2, h3, h4 { @apply font-extrabold; }
+  p { @apply mb-6; }
+}
+
+@layer utilities {
+  .story-link { @apply relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left; }
+  .hover-scale { @apply transition-transform duration-200 hover:scale-105; }
+  .section-padding { @apply py-24; }
+  .section-title { @apply text-[2.5rem] mb-12; }
+}

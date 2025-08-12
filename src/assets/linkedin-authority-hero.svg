@@ -1,0 +1,79 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8fafc" rx="12"/>
+  
+  <!-- Main Card -->
+  <rect x="40" y="40" width="520" height="320" fill="white" rx="16" stroke="#e2e8f0" stroke-width="1" filter="drop-shadow(0 10px 25px rgba(0,0,0,0.1))"/>
+  
+  <!-- LinkedIn Header -->
+  <rect x="40" y="40" width="520" height="60" fill="#0077B5" rx="16"/>
+  <rect x="40" y="84" width="520" height="16" fill="#0077B5"/>
+  
+  <!-- LinkedIn Logo -->
+  <rect x="60" y="60" width="24" height="24" fill="white" rx="4"/>
+  <text x="72" y="76" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#0077B5">in</text>
+  
+  <!-- Profile Section -->
+  <circle cx="120" cy="140" r="30" fill="#0f172a"/>
+  <text x="120" y="148" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">AC</text>
+  
+  <text x="170" y="130" font-family="Arial" font-size="20" font-weight="bold" fill="#0f172a">Alex Chen</text>
+  <text x="170" y="150" font-family="Arial" font-size="14" fill="#64748b">CEO @ NeuralFlow AI</text>
+  <text x="170" y="165" font-family="Arial" font-size="12" fill="#94a3b8">15.2K followers • AI Expert</text>
+  
+  <!-- Authority Score -->
+  <rect x="80" y="200" width="200" height="120" fill="#f8fafc" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="90" y="220" font-family="Arial" font-size="16" font-weight="600" fill="#0f172a">Authority Score</text>
+  <text x="260" y="225" text-anchor="end" font-family="Arial" font-size="28" font-weight="bold" fill="#0f172a">87</text>
+  <text x="270" y="225" font-family="Arial" font-size="16" fill="#64748b">/100</text>
+  
+  <!-- Progress Bars -->
+  <text x="90" y="245" font-family="Arial" font-size="12" fill="#64748b">Profile</text>
+  <rect x="90" y="250" width="150" height="6" fill="#e2e8f0" rx="3"/>
+  <rect x="90" y="250" width="138" height="6" fill="#0f172a" rx="3"/>
+  
+  <text x="90" y="270" font-family="Arial" font-size="12" fill="#64748b">Content</text>
+  <rect x="90" y="275" width="150" height="6" fill="#e2e8f0" rx="3"/>
+  <rect x="90" y="275" width="133" height="6" fill="#0f172a" rx="3"/>
+  
+  <text x="90" y="295" font-family="Arial" font-size="12" fill="#64748b">Network</text>
+  <rect x="90" y="300" width="150" height="6" fill="#e2e8f0" rx="3"/>
+  <rect x="90" y="300" width="128" height="6" fill="#10b981" rx="3"/>
+  
+  <!-- Growth Metrics -->
+  <rect x="320" y="200" width="200" height="120" fill="#f8fafc" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="330" y="220" font-family="Arial" font-size="16" font-weight="600" fill="#0f172a">90-Day Growth</text>
+  
+  <rect x="330" y="235" width="80" height="35" fill="white" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="335" y="248" font-family="Arial" font-size="10" fill="#64748b">Followers</text>
+  <text x="405" y="262" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold" fill="#0f172a">+12.8K</text>
+  
+  <rect x="420" y="235" width="80" height="35" fill="white" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="425" y="248" font-family="Arial" font-size="10" fill="#64748b">Engagement</text>
+  <text x="495" y="262" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold" fill="#0f172a">+234%</text>
+  
+  <rect x="330" y="280" width="80" height="35" fill="white" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="335" y="293" font-family="Arial" font-size="10" fill="#64748b">Revenue</text>
+  <text x="405" y="307" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold" fill="#10b981">$2.4M</text>
+  
+  <rect x="420" y="280" width="80" height="35" fill="white" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="425" y="293" font-family="Arial" font-size="10" fill="#64748b">Deals</text>
+  <text x="495" y="307" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold" fill="#10b981">15</text>
+  
+  <!-- Success Icons -->
+  <circle cx="100" cy="350" r="16" fill="#10b981"/>
+  <text x="100" y="356" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">$</text>
+  <text x="125" y="350" font-family="Arial" font-size="12" fill="#0f172a">Revenue Growth</text>
+  
+  <circle cx="250" cy="350" r="16" fill="#10b981"/>
+  <text x="250" y="356" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">F</text>
+  <text x="275" y="350" font-family="Arial" font-size="12" fill="#0f172a">Series A Funded</text>
+  
+  <circle cx="400" cy="350" r="16" fill="#10b981"/>
+  <text x="400" y="356" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="white">T</text>
+  <text x="425" y="350" font-family="Arial" font-size="12" fill="#0f172a">Team Scaling</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="520" cy="80" r="3" fill="#cbd5e1" opacity="0.6"/>
+  <circle cx="540" cy="70" r="2" fill="#cbd5e1" opacity="0.4"/>
+</svg>

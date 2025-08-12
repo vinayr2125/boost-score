@@ -1,0 +1,80 @@
+# Boost Score Robots.txt
+# LinkedIn Authority Building Platform for AI Founders
+# https://boostscore.ai
+
+# Google Bot - High Priority
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Crawl-delay: 0
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+Allow: /assets/
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.webp
+Allow: *.png
+Allow: *.svg
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Crawl-delay: 1
+
+# LinkedIn Bot - Important for our target market
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0
+
+# Twitter Bot
+User-agent: Twitterbot
+Allow: /
+
+# Facebook Bot
+User-agent: facebookexternalhit
+Allow: /
+
+# OpenAI GPT Bot
+User-agent: GPTBot
+Allow: /
+
+# Anthropic Claude Bot
+User-agent: Claude-Web
+Allow: /
+
+# SEO Analysis Tools
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 5
+
+# All Other Bots
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /tmp/
+Disallow: /node_modules/
+Disallow: /.git/
+Crawl-delay: 1
+
+# Sitemap Location
+Sitemap: https://boostscore.ai/sitemap.xml
+
+# Host (preferred domain)
+Host: https://boostscore.ai

@@ -1,0 +1,70 @@
+{
+  "short_name": "Boost Score",
+  "name": "Boost Score - LinkedIn Authority Builder for AI Founders",
+  "description": "Transform your LinkedIn into a powerful business growth engine. Build authority that attracts investors and enterprise clients.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?utm_source=pwa",
+  "display": "standalone",
+  "theme_color": "#3B82F6",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["business", "productivity", "social"],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "label": "Desktop view of Boost Score LinkedIn Authority Builder"
+    },
+    {
+      "src": "/assets/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "label": "Mobile view of Boost Score platform"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Take Assessment",
+      "short_name": "Assessment",
+      "description": "Take your free LinkedIn Authority Assessment",
+      "url": "/#assessment",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "View Pricing",
+      "short_name": "Pricing",
+      "description": "View Boost Score pricing plans",
+      "url": "/#pricing",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
