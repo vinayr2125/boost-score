@@ -34,7 +34,7 @@ const Index = () => {
 
   return (
     <main>
-      <header className="sticky top-0 z-30 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
+      <header className="sticky top-[60px] z-30 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
         <div className="container mx-auto flex items-center justify-between py-4">
           <a href="#" className="flex items-center gap-2" aria-label="Boost Score home">
             <div className="h-8 w-8 rounded-md bg-primary flex items-center justify-center">

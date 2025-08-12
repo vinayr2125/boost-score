@@ -17,7 +17,9 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <div className="min-h-screen">
-          <ComingSoonBanner />
+          <div className="sticky top-0 z-50">
+            <ComingSoonBanner />
+          </div>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
