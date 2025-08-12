@@ -51,10 +51,10 @@ const Index = () => {
           </nav>
           <div className="flex items-center gap-3">
             <Button variant="outline" className="hidden md:inline-flex" asChild>
-              <a href="#assessment">See your score</a>
+              <a href="https://calendly.com/trishsampath-alphaboostlabs/demo-for-boost-score" target="_blank" rel="noopener noreferrer">See your score</a>
             </Button>
             <Button variant="hero" size="lg" asChild>
-              <a href="#assessment" aria-label="Take your free Authority Assessment">Take Your Free Authority Assessment</a>
+              <a href="https://calendly.com/trishsampath-alphaboostlabs/demo-for-boost-score" target="_blank" rel="noopener noreferrer" aria-label="Take your free Authority Assessment">Take Your Free Authority Assessment</a>
             </Button>
           </div>
         </div>
@@ -73,10 +73,10 @@ const Index = () => {
             </p>
             <div className="mt-6 flex flex-col sm:flex-row gap-3">
               <Button variant="hero" size="lg" asChild>
-                <a href="#assessment">Take Your Free Authority Assessment</a>
+                <a href="https://calendly.com/trishsampath-alphaboostlabs/demo-for-boost-score" target="_blank" rel="noopener noreferrer">Take Your Free Authority Assessment</a>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="#video"><PlayCircle className="mr-2" /> See How It Works (2 min)</a>
+                <a href="https://calendly.com/trishsampath-alphaboostlabs/demo-for-boost-score" target="_blank" rel="noopener noreferrer"><PlayCircle className="mr-2" /> See How It Works (2 min)</a>
               </Button>
             </div>
             <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
@@ -189,7 +189,7 @@ const Index = () => {
                 ))}
                 <div className="sm:col-span-2">
                   <Button variant="hero" size="lg" className="w-full" asChild>
-                    <a href="#pricing">Start Your Free Assessment</a>
+                    <a href="https://calendly.com/trishsampath-alphaboostlabs/demo-for-boost-score" target="_blank" rel="noopener noreferrer">Start Your Free Assessment</a>
                   </Button>
                   <p className="text-xs text-muted-foreground text-center mt-2">No credit card required • Instant results</p>
                 </div>
@@ -252,7 +252,7 @@ const Index = () => {
 
                 <div className="pt-2">
                   <Button variant="hero" size="lg" className="w-full" asChild>
-                    <a href="#pricing"><ArrowRight className="mr-2" /> See Your Personalized Growth Plan</a>
+                    <a href="https://calendly.com/trishsampath-alphaboostlabs/demo-for-boost-score" target="_blank" rel="noopener noreferrer"><ArrowRight className="mr-2" /> See Your Personalized Growth Plan</a>
                   </Button>
                   <p className="text-xs text-muted-foreground text-center mt-2">Results calculated based on industry averages and our user data</p>
                 </div>
@@ -439,8 +439,10 @@ const Index = () => {
                     ))}
                   </ul>
                   <div className="mt-6">
-                    <Button variant={plan.highlight ? "hero" : "hero"} size="lg" className="w-full">
-                      {plan.cta}
+                    <Button variant={plan.highlight ? "hero" : "hero"} size="lg" className="w-full" asChild>
+                      <a href="https://calendly.com/trishsampath-alphaboostlabs/demo-for-boost-score" target="_blank" rel="noopener noreferrer">
+                        {plan.cta}
+                      </a>
                     </Button>
                     <p className="text-xs text-muted-foreground mt-2">90-Day Money-Back Guarantee — follow the program and don't see results, get a full refund.</p>
                   </div>
@@ -487,8 +489,12 @@ const Index = () => {
           <h2 className="text-3xl font-bold">Start Building Your LinkedIn Authority Today - Join 500+ Successful AI Founders</h2>
           <p className="mt-3 text-muted-foreground">Limited Founding Member Spots: Transform your LinkedIn presence into a business growth engine • Save $2,000 with early access pricing • Get personalized onboarding and direct founder support</p>
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
-            <Button variant="hero" size="lg">Start Your Free Assessment</Button>
-            <Button variant="outline" size="lg">Book a Demo Call</Button>
+            <Button variant="hero" size="lg" asChild>
+              <a href="https://calendly.com/trishsampath-alphaboostlabs/demo-for-boost-score" target="_blank" rel="noopener noreferrer">Start Your Free Assessment</a>
+            </Button>
+            <Button variant="outline" size="lg" asChild>
+              <a href="https://calendly.com/trishsampath-alphaboostlabs/demo-for-boost-score" target="_blank" rel="noopener noreferrer">Book a Demo Call</a>
+            </Button>
           </div>
         </div>
       </section>
