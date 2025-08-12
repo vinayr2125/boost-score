@@ -19,8 +19,8 @@ export const SEO = ({
   title = "LinkedIn Authority Builder for AI Founders | Boost Score™",
   description = "Transform your LinkedIn into a powerful business growth engine. AI startup founders using Boost Score see 3x more investor meetings, 5x enterprise leads. Free Authority Assessment.",
   keywords = "LinkedIn authority building, AI startup founders, LinkedIn for founders, startup fundraising LinkedIn, enterprise sales LinkedIn, thought leadership platform",
-  image = "https://boostscore.ai/og-image-authority.jpg",
-  url = "https://boostscore.ai",
+  image = "https://www.tryboostscore.com/og-image-authority.jpg",
+  url = "https://www.tryboostscore.com",
   type = "website",
   author = "Boost Score",
   publishedTime,
@@ -96,7 +96,7 @@ export const SEO = ({
             "name": "Boost Score",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://boostscore.ai/logo.png"
+              "url": "https://www.tryboostscore.com/logo.png"
             }
           },
           "datePublished": publishedTime || new Date().toISOString(),

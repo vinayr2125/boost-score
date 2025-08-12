@@ -1,6 +1,6 @@
 # Boost Score Robots.txt
 # LinkedIn Authority Building Platform for AI Founders
-# https://boostscore.ai
+# https://www.tryboostscore.com
 
 # Google Bot - High Priority
 User-agent: Googlebot
@@ -74,7 +74,7 @@ Disallow: /.git/
 Crawl-delay: 1
 
 # Sitemap Location
-Sitemap: https://boostscore.ai/sitemap.xml
+Sitemap: https://www.tryboostscore.com/sitemap.xml
 
 # Host (preferred domain)
-Host: https://boostscore.ai
+Host: https://www.tryboostscore.com
