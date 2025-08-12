@@ -1,16 +1,11 @@
-import { useState } from "react";
-import { X, Sparkles, Bell } from "lucide-react";
+import { Sparkles, Bell } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ComingSoonBanner = () => {
-  const [isVisible, setIsVisible] = useState(true);
-
   const handleNotifyClick = () => {
     // Redirect to HubSpot form
     window.open("https://2du5os.share-eu1.hsforms.com/29EC3XhDbQZ-ojQayx4CreA", "_blank");
   };
-
-  if (!isVisible) return null;
 
   return (
     <div className="relative bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-white">
@@ -27,25 +22,15 @@ const ComingSoonBanner = () => {
             </span>
           </div>
           
-          <div className="flex items-center gap-2">
-            <Button 
-              onClick={handleNotifyClick}
-              variant="secondary" 
-              size="sm"
-              className="whitespace-nowrap"
-            >
-              <Bell className="h-4 w-4 mr-2" />
-              Notify Me
-            </Button>
-            
-            <button
-              onClick={() => setIsVisible(false)}
-              className="p-1 hover:bg-white/20 rounded-full transition-colors"
-              aria-label="Close banner"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          </div>
+          <Button 
+            onClick={handleNotifyClick}
+            variant="secondary" 
+            size="sm"
+            className="whitespace-nowrap"
+          >
+            <Bell className="h-4 w-4 mr-2" />
+            Notify Me
+          </Button>
         </div>
       </div>
     </div>
