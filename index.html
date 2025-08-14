@@ -9,7 +9,7 @@
     <!-- Primary Meta Tags -->
     <title>LinkedIn Authority Builder for AI Founders | Boost Score™</title>
     <meta name="title" content="LinkedIn Authority Builder for AI Founders | Boost Score™" />
-    <meta name="description" content="LinkedIn authority platform for AI founders. Get 3x more investor meetings, 5x enterprise leads. Free Authority Assessment. 500+ founders trust us." />
+    <meta name="description" content="LinkedIn Authority Builder for AI Founders - Boost Score™ platform helps startup founders get 3x more investor meetings, 5x enterprise leads. Free Authority Assessment. 500+ founders trust us." />
     <meta name="keywords" content="LinkedIn authority building, AI startup founders, LinkedIn for founders, startup fundraising LinkedIn, enterprise sales LinkedIn, thought leadership platform, founder personal branding, LinkedIn content strategy, AI founder marketing, B2B LinkedIn marketing, investor outreach LinkedIn, technical founder branding, LinkedIn profile optimization, startup growth LinkedIn, founder visibility platform" />
     <meta name="author" content="Boost Score" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -209,8 +209,51 @@
   </head>
 
   <body>
+    <!-- SEO content for crawlers (hidden when React loads) -->
+    <div id="seo-content" style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">
+      <h1>LinkedIn Authority Builder for AI Founders | Boost Score™</h1>
+      <h2>Transform Your LinkedIn Profile Into a Lead Generation Machine</h2>
+      <p>The premier LinkedIn authority building platform engineered specifically for AI startup founders. Attract investors, close enterprise deals, and build thought leadership with our proven system trusted by 500+ technical founders.</p>
+      
+      <h2>Why AI Founders Choose Boost Score</h2>
+      <ul>
+        <li>3x more investor meetings</li>
+        <li>5x increase in enterprise leads</li>
+        <li>250% follower growth in 90 days</li>
+      </ul>
+      
+      <h2>LinkedIn Authority Building Features</h2>
+      <ul>
+        <li>50+ Proven LinkedIn Templates</li>
+        <li>AI Content Assistant</li>
+        <li>Authority Score Dashboard</li>
+        <li>Profile Optimization Tools</li>
+        <li>Engagement Analytics</li>
+      </ul>
+      
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#assessment">Free Assessment</a>
+        <a href="#faq">FAQ</a>
+        <a href="/about">About</a>
+      </nav>
+    </div>
+    
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <script>
+      // Remove SEO content once React loads
+      window.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+          var seoContent = document.getElementById('seo-content');
+          if (seoContent && document.getElementById('root').children.length > 0) {
+            seoContent.remove();
+          }
+        }, 100);
+      });
+    </script>
     
     <!-- Google Tag Manager (noscript) -->
     <noscript>
