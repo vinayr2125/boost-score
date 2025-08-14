@@ -38,7 +38,7 @@ const Index = () => {
       <SEO />
       <header className="sticky top-[60px] z-30 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
         <div className="container mx-auto flex items-center justify-between py-4">
-          <a href="#" className="flex items-center gap-2" aria-label="Boost Score home">
+          <a href="/" className="flex items-center gap-2" aria-label="Boost Score home">
             <div className="h-8 w-8 rounded-md bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">B</span>
             </div>
@@ -536,9 +536,9 @@ const Index = () => {
               <h3 className="font-semibold mb-3">Company</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li><Link to="/about" className="hover:text-primary transition-colors">About</Link></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Terms of Service</a></li>
+                <li><a href="mailto:support@tryboostscore.com" className="hover:text-primary transition-colors">Contact</a></li>
+                <li><a href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</a></li>
+                <li><a href="/terms" className="hover:text-primary transition-colors">Terms of Service</a></li>
               </ul>
             </div>
           </div>
